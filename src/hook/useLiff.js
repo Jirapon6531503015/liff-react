@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import liff from "@line/liff";
 
-const LIFF_ID = "2009477679-1obbLMWU";
+const LIFF_ID = import.meta.env.VITE_LIFF_ID;
 
 export function useLiff() {
   const [state, setState] = useState({
