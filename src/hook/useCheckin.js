@@ -29,8 +29,8 @@ export function useCheckin() {
         pictureUrl: profile.pictureUrl,
         lat: position.coords.latitude,
         lng: position.coords.longitude,
-        accuracy: position.coords.accuracy, // ความแม่นยำ (เมตร)
-        timestamp: serverTimestamp(), // เวลาจาก Firebase server
+        accuracy: position.coords.accuracy, 
+        timestamp: serverTimestamp(), 
       };
 
       // บันทึกลง collection "checkins"

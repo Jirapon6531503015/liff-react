@@ -9,7 +9,7 @@ export default function CheckinButton({ onCheckin, loading }) {
       onClick={onCheckin}
       disabled={loading}
     >
-      {loading ? "⏳ กำลังเช็คอิน..." : "📍 เช็คอินตอนนี้"}
+      {loading ? "กำลังเช็คอิน..." : "📍 เช็คอินตอนนี้"}
     </button>
   );
 }
